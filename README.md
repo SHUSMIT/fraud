@@ -1,6 +1,6 @@
-﻿# DeFraudify: Intelligent Analysis of Anomalous Transactions
+﻿# Intelligent Analysis of Anomalous Transactions
 
-DeFraudify is a complete solution for detecting anomalous financial transactions, identifying customer-level risk, and applying supervised machine learning for fraud prediction. The system combines unsupervised anomaly detection, clustering, and supervised models to flag potentially fraudulent activity.
+This is a complete solution for detecting anomalous financial transactions, identifying customer-level risk, and applying supervised machine learning for fraud prediction. The system combines unsupervised anomaly detection, clustering, and supervised models to flag potentially fraudulent activity.
 
 ---
 
@@ -136,14 +136,3 @@ pip install -r requirements.txt
 - Add advanced feature engineering
 - Hyperparameter tuning for models
 - Expand dashboard functionality
-
-## Contributing
-
-Pull requests are welcome. Whether you want to add clustering algorithms, improve data handling, or introduce new visualizations, contributions are appreciated.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Created By
-Crafted by Juan Rafael Vidal — Data Scientist, DevOps Engineer, info-sleuth and code-slinger.
