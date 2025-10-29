@@ -90,24 +90,6 @@ Features:
 - Fraud report generation (PDF)
 - Real-time or batch transaction prediction
 
-## Screen Previews
-![Diagram](images/01_Fraud_Score.png)
-
-![Diagram](images/02_Umap_Clustering.png)
-
-![Diagram](images/03_Cluster_Scatterplot.png)
-
-![Diagram](images/04_Top_Customers.png)
-
-![Diagram](images/05_Single_Transaction.png)
-
-![Diagram](images/06_roc_curves.png)
-
-![Diagram](images/07_confusion_matrices.png)
-
-![Diagram](images/08_feature_importances.png)
-
-![Diagram](images/09_performance_history.png)
 
 ## Effectiveness & Limitations
 | Component | Description                    | Current Effectiveness                                                                                 |
