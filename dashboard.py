@@ -1,5 +1,7 @@
 # dashboard.py
 
+# dashboard.py
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,12 +10,22 @@ import os
 import joblib
 import glob
 from io import BytesIO
+import sys  # <-- 1. IMPORT SYS
 
+# --- THIS IS THE FIX ---
+# Add the project root directory (where this file is) to the Python path
+# This allows it to find the 'src' module
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+# ---------------------
+
+# Now these local imports will work correctly
 from src.customer_risk_analysis import compute_customer_risk, summarize_customer_risk
 from src.transaction_report import export_transaction_pdf, generate_fraud_report
 from src.visualize_clusters import generate_umap_projection, plot_clusters
 from src.investigation_state import load_investigated, save_investigated
 from src.visualization import plot_fraud_score_distribution, plot_top_customers_by_risk
+
+# ... (rest of your code)
 
 st.set_page_config(page_title="DeFraudify Dashboard", layout="wide")
 sns.set(style="whitegrid")
